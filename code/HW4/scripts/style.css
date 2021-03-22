@@ -1,0 +1,67 @@
+body{
+	background: linear-gradient(to bottom, #000428, #004e92);
+}
+
+.wrapper {
+	width: 70%;
+	margin: auto;
+	text-align: center;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+h1 {
+	margin: 20px;
+	font-size: 6rem;
+	color: rgb(208, 214, 218);
+}
+
+.dice-area {
+	margin: 0px 50px;
+	text-align: center;
+	display: inline-block;
+}
+
+p {
+	font-size: 2.5rem;
+	color: rgb(208, 214, 218);
+}
+
+img {
+	width: 320px;
+}
+
+.btn{
+  position: relative;
+  display: block;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 3rem;
+  border: 2px solid #000428;
+  padding: 0.85em 0.75em;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 1s all ease;
+}
+.btn::before{
+  background: #000428;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+  transition: all 0.6s ease;
+}
+
+.btn1::before{
+  width: 0%;
+  height: 100%;
+}
+
+.btn1:hover::before{
+  width: 100%;
+}
+
+
+

@@ -1,0 +1,78 @@
+<head>
+	<link rel="icon" href="assets/favicon.png">
+	<title>Charles Kuylen's Portfolio</title>
+
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="styles/bootstrap.min.css">
+	<link rel="stylesheet" href="styles/bootstrap-icons.css">
+</head>
+
+<body class='bg-Secondary text-dark'>
+	<!--Navbar-->
+	<nav class="navbar navbar-expand-md navbar-light bg-light container-fluid" style="font-family:'Helvetica'">
+		<a class="navbar-brand" href="index.html"> Charles Kuylen </a>
+		<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-options">
+			<i class="navbar-toggler-icon"></i>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-options">
+			<ul class="navbar-nav ms-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="projects.html"> Code </a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="blog.html"> Blog </a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="about.html"> About </a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contact.html"> Contact </a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+
+
+	<!-- 'About' Heading -->
+	<div class='container'>
+		<h1 class='display-1 mt-3'> About </h1>
+		<hr>
+	</div>
+
+	<!-- About Me: using Grid & Flex -->
+	<div class='container-fluid text-light row'>
+		<!-- Column 1: Social links & Education -->
+		<div class="text-center">
+			<h1 class="lead"> Charles Kuylen </h1>
+			<img class='img-thumbnail rounded-circle' src="assets/self.jpg" width="200">
+			<div class=" justify-content-center gap-4 m-4">
+				<h4>Skills and Talents</h4>
+				<p> I'm a computer science major and game modder. </p>
+				<p> I've worked in Java and C++, and have experience in Game Maker and Unity. </p>
+			</div>
+			<hr>
+			<div class="d-flex column row-cols-1 flex-wrap">
+				<span> Education: </span>
+				<small>Computer Science, B.S.</small>
+				<small class="fst-italic">University New Orleans</small>
+			</div>
+			<hr>
+			<div class="d-flex row row-cols-5">
+				<img src='assets/icon-java.png'>
+				<img src='assets/icon-html5.png'>
+				<img src='assets/icon-css3.png'>
+				<img src='assets/icon-unity.png'>
+				<img src='assets/icon-gm2.png'>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Bootstrap Bundle with Popper -->
+	<script src="scripts/bootstrap.bundle.min.js"></script>
+</body>

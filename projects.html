@@ -1,0 +1,94 @@
+<head>
+	<link rel="icon" href="assets/favicon.png">
+	<title>Charles Kuylen's Portfolio</title>
+
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="styles/bootstrap.min.css">
+	<link rel="stylesheet" href="styles/bootstrap-icons.css">
+
+</head>
+
+<body class="bg-Secondary text-dark">
+	<!--Navbar-->
+	<nav class="navbar navbar-expand-md navbar-light bg-light container-fluid" style="font-family:'Helvetica'">
+		<a class="navbar-brand" href="index.html"> Charles Kuylen </a>
+		<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-options">
+			<i class="navbar-toggler-icon"></i>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-options">
+			<ul class="navbar-nav ms-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="projects.html"> Code </a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="blog.html"> Blog </a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="about.html"> About </a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contact.html"> Contact </a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<!--Coding Projects Portfolio-->
+	<div class="container">
+		<h1 class="display-1 mt-4"> Code </h1>
+		<hr>
+
+		<!-- START: Card Group -->
+		<div class="card-group gap-2">
+			<!-- START: Card 1 -->
+			<div class="card bg-light text-center">
+				<!-- Card Header -->
+				<div class="card-header">
+					<img class="img-thumbnail" src="assets/locked-away.jpg" width="500">
+				</div>
+				<!-- Card Body -->
+				<div class="card-body">
+					<h3 class="card-title"> Homework 1 & 2: HTML and CSS   </h3>
+					<p class="card-text">
+						A small game made in HTML for my Web Application Class.
+					</p>
+				</div>
+				<!-- Card Footer -->
+				<div class="card-footer">
+					<small class="text-muted"> HTML, CSS </small>
+					<button class="btn-dark float-end" onclick="document.location='code/HW1/index.html'"> See More </button>
+				</div>
+			</div>
+			<!-- END:Card 1 -->
+
+			<!-- START:Card 2 -->
+			<div class="card bg-light text-center">
+				<!-- Card Header -->
+				<div class="card-header">
+					<img class="img-thumbnail" src="assets/locked-away.jpg" width="500">
+				</div>
+				<!-- Card Body -->
+				<div class="card-body">
+					<h3 class="card-title"> Homework 4: JS and DOM  </h3>
+					<p class="card-text">
+						A small game made with JS and DOM for my Web Application Class.
+					</p>
+				</div>
+				<!-- Card Footer -->
+				<div class="card-footer">
+					<small class="text-muted"> HTML, CSS </small>
+					<button class="btn-dark float-end" onclick="document.location='code/HW4/index.html'"> See More </button>
+				</div>
+			</div>
+			<!-- END:Card 2 -->
+		</div>
+		<!-- END:Card Group -->
+	</div>
+
+	<!-- Bootstrap Bundle with Popper -->
+	<script src="scripts/bootstrap.bundle.min.js"></script>
+</body>
